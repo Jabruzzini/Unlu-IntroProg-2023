@@ -58,12 +58,42 @@
 #     print (x, '\t', 8**x)
 #     x += 1
 
-def imprimir_cuadradados():
-    n1=int(input("Ingrese un numero entero : "))
+# def imprimir_cuadradados():
+#     n1=int(input("Ingrese un numero entero : "))
 
-    n2=int(input("Ingrese otro numero entero : "))
+#     n2=int(input("Ingrese otro numero entero : "))
 
-    for x in range (n1,n2):
-        print (x * x)
+#     for x in range (n1,n2):
+#         print (x * x)
 
-imprimir_cuadradados()
+# imprimir_cuadradados()
+
+def cuadrado(n):
+    return n*n
+    print(cuadrado(2))
+    print(cuadrado(6))
+    print(cuadrado(10))
+
+def test_cuadrado():
+    print("Testeando funcion cuadrado")
+    print(" ")
+    assert(cuadrado(2)==4)
+    assert(cuadrado(6)==36)
+    assert(cuadrado(10)==100)
+    print("Pasó!!!")
+
+test_cuadrado()
+
+x=cuadrado(5)
+x=cuadrado(5)
+
+print(x)
+
+a=5
+b=10
+a,b=b,a
+
+
+
+
+print("a es igual a ",a,"\nb es igual a ",b)
