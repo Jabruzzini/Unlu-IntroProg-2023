@@ -33,25 +33,25 @@
 #     """)
 #     opcion = int(input("Elige una opción: "))
 
-    # if opcion == 1:
-    #     print (" ")
-    #     print("RESULTADO: La suma de", n1, "+", n2, "es igual a", n1+n2)
-    # elif opcion == 2:
-    #     print(" ")
-    #     print("RESULTADO: La resta de", n1,"-",n2,"es igual a",n1-n2)
-    # elif opcion == 3:
-    #     print(" ")
-    #     print("RESULTADO: El producto de", n1,"*",n2,"es igual a",n1*n2)
-    # elif opcion == 4:
-    #     n1 = float(input("Introduce tu primer número: "))
-    #     n2 = float(input("Introduce tu segundo número: "))
-    # elif opcion == 5:
-    #     break
-    # else:
-    #     print("Opción incorrecta")
+# if opcion == 1:
+#     print (" ")
+#     print("RESULTADO: La suma de", n1, "+", n2, "es igual a", n1+n2)
+# elif opcion == 2:
+#     print(" ")
+#     print("RESULTADO: La resta de", n1,"-",n2,"es igual a",n1-n2)
+# elif opcion == 3:
+#     print(" ")
+#     print("RESULTADO: El producto de", n1,"*",n2,"es igual a",n1*n2)
+# elif opcion == 4:
+#     n1 = float(input("Introduce tu primer número: "))
+#     n2 = float(input("Introduce tu segundo número: "))
+# elif opcion == 5:
+#     break
+# else:
+#     print("Opción incorrecta")
 
 
-# Esta funcion 
+# Esta funcion
 
 # x = 1
 # while x < 13:
@@ -74,26 +74,38 @@ def cuadrado(n):
     print(cuadrado(6))
     print(cuadrado(10))
 
-def test_cuadrado():
-    print("Testeando funcion cuadrado")
-    print(" ")
-    assert(cuadrado(2)==4)
-    assert(cuadrado(6)==36)
-    assert(cuadrado(10)==100)
-    print("Pasó!!!")
 
-test_cuadrado()
+# def test_cuadrado():
+#     print("Testeando funcion cuadrado")
+#     print(" ")
+#     assert(cuadrado(2)==4)
+#     assert(cuadrado(6)==36)
+#     assert(cuadrado(10)==100)
+#     print("Pasó!!!")
+# test_cuadrado()
 
-x=cuadrado(5)
-x=cuadrado(5)
+# x=cuadrado(5)
+# x=cuadrado(5)
 
-print(x)
+# print(x)
 
-a=5
-b=10
-a,b=b,a
+# a=5
+# b=10
+# a,b=b,a
+
+# print("a es igual a ",a,"\nb es igual a ",b)
 
 
+# n=2
+
+# print(type(n))
+
+# n=5
+# b=3
+
+# z=n>b
+
+# print(type(z))
+# print(z)
 
 
-print("a es igual a ",a,"\nb es igual a ",b)
