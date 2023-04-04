@@ -28,22 +28,28 @@
     
 
 
-nombre_empleado= input ("Ingrese nombre de empleado: ")
-sector= int(input("Ingrese sector al que pertenece: "))
-antiguedad= int(input("Ingrese antiguedad: "))
+# nombre_empleado= input ("Ingrese nombre de empleado: ")
+# sector= int(input("Ingrese sector al que pertenece: "))
+# antiguedad= int(input("Ingrese antiguedad: "))
 
-sueldo= 800
+# sueldo= 800
 
-if sector == 1 and antiguedad < 5 : 
-    recibo= int((sueldo+120)*1.10)
-    print (f'Hola {nombre_empleado}, su sueldo es {recibo}')
-elif sector==1: 
-    recibo= int((sueldo+120)*1.20)
-    print (f'Hola {nombre_empleado}, su sueldo es {recibo}')
-elif sector == 2:
-    recibo=int((sueldo+250))
-    print (f'Hola {nombre_empleado}, su sueldo es {recibo}')
-else: 
-    print ("Sector erroneo")
+# if sector == 1 and antiguedad < 5 : 
+#     recibo= int((sueldo+120)*1.10)
+#     print (f'Hola {nombre_empleado}, su sueldo es {recibo}')
+# elif sector==1: 
+#     recibo= int((sueldo+120)*1.20)
+#     print (f'Hola {nombre_empleado}, su sueldo es {recibo}')
+# elif sector == 2:
+#     recibo=int((sueldo+250))
+#     print (f'Hola {nombre_empleado}, su sueldo es {recibo}')
+# else: 
+#     print ("Sector erroneo")
 
     
+def potenciacion(base, exponente):
+    
+    resultado=pow(base, exponente)
+    return f"La potencia de {base} ^ {exponente} es igual a: {resultado}"
+
+print(potenciacion(10,5))
